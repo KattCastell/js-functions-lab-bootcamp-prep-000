@@ -1,7 +1,9 @@
 // write your code below!
 function happyHolidays() {
-return("Happy holidays!")
+return "Happy holidays!";
 }
-function happyHolidaysTo(Kathleen) {
-  return("Happy holidays, ${name}")
-}
+
+function happyHolidaysTo(name) {
+  return "Happy holidays, ${name}!"
+} 
+happyHolidaysTo("you")
